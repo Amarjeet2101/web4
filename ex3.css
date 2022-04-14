@@ -231,11 +231,12 @@
     height: 50%;
     width: 50%;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 60px;
 }
 @media (min-width: 769px) and (max-width:1024px){
     .home_title{
-        top: 25%;
+        top: 24%;
     }
 }
 @media (max-width:767px){
