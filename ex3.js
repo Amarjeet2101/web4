@@ -30,4 +30,9 @@ const sr= ScrollReveal({
 })
 //data
 sr.reveal('.section_data',{origin:'left',distance:'70px'})
-sr.reveal('.section_img',{origin:'bottom',distance:'70px', delay:200})
+sr.reveal('.section_img',{origin:'bottom',distance:'70px', delay:100})
+sr.reveal('.section_title',{origin:'top',distance:'70px', delay:50})
+sr.reveal('.section_title1',{origin:'top',distance:'70px', delay:50})
+sr.reveal('.para1',{origin:'bottom',distance:'50px', delay:0,})
+sr.reveal('.para2',{origin:'bottom',distance:'50px', delay:40})
+sr.reveal('.about_title',{origin:'top',distance:'70px', delay:50})
