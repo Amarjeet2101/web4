@@ -14,6 +14,12 @@ $('.btn').click(function(){
       $(this).addClass("active").siblings().removeClass("active");
     });
 
+// popup
+// function toggle(){
+//   const blur = document.getElementById('blur');
+//   blur.classList.toggle('active');
+// }
+
 // rellax js
 var rellax = new Rellax('.parallax')
 //nav
@@ -23,16 +29,17 @@ gsap.from('.home_title',{opacity:0,duration:1, delay:0.8,y:35, ease:'expo.out'})
 gsap.from('.home_subtitle',{opacity:0,duration:1, delay:1,y:35, ease:'expo.out'})
 //scroll
 gsap.from('.home_scroll',{opacity:0,duration:1, delay:1.1,y:35, ease:'expo.out'})
+gsap.from('.section_data1',{opacity:0,duration:1, delay:0.5,y:35, ease:'expo.out'})
+gsap.from('.section_data2',{opacity:0,duration:1, delay:0.9,y:35, ease:'expo.out'})
+gsap.from('.section_data3',{opacity:0,duration:1, delay:1.3,y:35, ease:'expo.out'})
+gsap.from('.first_content',{opacity:0,duration:1, delay:0.3,y:35, ease:'expo.out'})
+gsap.from('.first_section_h7',{opacity:0,duration:1, delay:0.6,y:35, ease:'expo.out'})
 //section
 const sr= ScrollReveal({
     duration:2500,
     reset:true
 })
 //data
-sr.reveal('.section_data',{origin:'left',distance:'70px'})
-sr.reveal('.section_img',{origin:'bottom',distance:'70px', delay:100})
-sr.reveal('.section_title',{origin:'top',distance:'70px', delay:50})
-sr.reveal('.section_title1',{origin:'top',distance:'70px', delay:50})
 sr.reveal('.para1',{origin:'bottom',distance:'50px', delay:0,})
 sr.reveal('.para2',{origin:'bottom',distance:'50px', delay:40})
 sr.reveal('.about_title',{origin:'top',distance:'70px', delay:50})
@@ -48,3 +55,7 @@ sr.reveal('.pac_content1',{origin:'bottom',distance:'50px', delay:100})
 sr.reveal('.pac_content2',{origin:'bottom',distance:'50px', delay:500})
 sr.reveal('.pac_content3',{origin:'bottom',distance:'50px', delay:700})
 sr.reveal('.pac_content4',{origin:'bottom',distance:'50px', delay:1000})
+sr.reveal('.second_title',{origin:'bottom',distance:'50px', delay:150})
+sr.reveal('.second_content',{origin:'bottom',distance:'50px', delay:200})
+sr.reveal('.second_container',{origin:'bottom',distance:'50px', delay:100})
+sr.reveal('.a',{origin:'bottom',distance:'50px', delay:300})
